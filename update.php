@@ -14,7 +14,7 @@ if(isset($_POST['id']) && isset($_POST['name']) && isset($_POST['mobile']) && is
   mysqli_query($mysqli, $update_query);
 
   // Redirect back to the homepage or any other desired page
-  header("Location: Untitled-1.php");
+  header("Location: index.php");
   exit();
 } else {
   echo "Invalid request.";
