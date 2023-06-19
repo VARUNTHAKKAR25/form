@@ -27,7 +27,7 @@ if(isset($_GET['id'])) {
   <title>Edit User</title>
 </head>
 <body>
-  <a href="Untitled-1.php">Go back to Homepage</a><br/><br/>
+  <a href="index.php">Go back to Homepage</a><br/><br/>
   <form action="update.php" method="POST">
     <input type="hidden" name="id" value="<?php echo $user_data['id']; ?>">
     <input type="text" name="name" placeholder="Name" value="<?php echo $user_data['name']; ?>" required><br>
