@@ -11,6 +11,6 @@ $insert_query = "INSERT INTO user (name, mobile, email) VALUES ('$name', '$mobil
 mysqli_query($mysqli, $insert_query);
 
 // Redirect back to the homepage or any other desired page
-header("Location: Untitled-1.php");
+header("Location: index.php");
 exit();
 ?>
